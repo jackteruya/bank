@@ -1,0 +1,9 @@
+.venv
+database
+media
+*sqlite3
+__pycache__
+.pytest_cache
+.idea
+.env
+storage.db

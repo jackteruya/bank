@@ -1,0 +1,7 @@
+greenlet==1.1.2
+SQLAlchemy==1.4.39
+alembic==1.8.0
+greenlet==1.1.2
+Mako==1.2.1
+MarkupSafe==2.1.1
+SQLAlchemy==1.4.39
