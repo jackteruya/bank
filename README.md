@@ -13,7 +13,16 @@ Caso queira utilizar o Banco de dados mysql crie um banco ou se preferir tem um 
 
     $ cd infra/docker;
     $ docker-compose up database ou $ docker-compose up -d mysqldb caso queira fechar o terminal ;
- 
+
+Mas Também é possivel utilizar o sqlite na branch -> dev-sqlite.
+   
+     $ git checkout dev-sqlite
+
+Crie um ambiente virtual para desenvolvimento e ative:
+    
+    $ python3 -m venv .env
+    $ source .env/bin/activate
+
 Instalando os requirements:
 
     $ pip install -r requirements.txt;
