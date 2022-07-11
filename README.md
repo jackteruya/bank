@@ -12,7 +12,7 @@ Com do docker instaldo, caso não tenha -> https://docs.docker.com/engine/instal
 Caso queira utilizar o Banco de dados mysql crie um banco ou se preferir tem um arquivo docker-compose.yml para subir um container.
 
     $ cd infra/docker;
-    $ docker-compose up database ou $ docker-compose up -d mysqldb caso queira fechar o terminal ;
+    $ docker-compose up database ou $ docker-compose up -d mysql caso queira fechar o terminal ;
 
 Mas Também é possivel utilizar o sqlite na branch -> dev-sqlite.
    

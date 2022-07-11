@@ -5,3 +5,12 @@ greenlet==1.1.2
 Mako==1.2.1
 MarkupSafe==2.1.1
 SQLAlchemy==1.4.39
+alembic==1.8.0
+cffi==1.15.1
+cryptography==3.4.7
+greenlet==1.1.2
+Mako==1.2.1
+MarkupSafe==2.1.1
+pycparser==2.21
+PyMySQL==1.0.2
+SQLAlchemy==1.4.39

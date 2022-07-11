@@ -1,14 +1,17 @@
 version: '3.9'
 
 services:
- mysqldb:
-  image: mysql
+ mysql:
+  image: mysql:latest
   ports:
-  - 3307:3306
+  - 3306:3306
   environment:
-  - MYSQL_ROOT_PASSWORD=p@ssw0rd1
+  - MYSQL_ROOT_PASSWORD=mypw
+  - MYSQL_DATABASE=mysql
   volumes:
   - mysql:/var/lib/mysql
+  - mysqlConfig:/etc/mysql
 
 volumes:
   mysql:
+  mysqlConfig:
